@@ -1,0 +1,69 @@
+.mydiv {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.maincontainer {
+  height: 80%;
+  width: 75%;
+  overflow: scroll;
+}
+.maincontainer::-webkit-scrollbar {
+  display: none;
+}
+.heading {
+  text-decoration-line: underline;
+  text-shadow: 1px 1px 1px rgb(136, 136, 136);
+  text-align: center;
+  font-style: italic;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  color: rgb(189, 188, 188);
+}
+.inputbox {
+  height: 2rem;
+  border: none;
+  margin-top: 1rem;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: lighter;
+}
+.submitbutton {
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 1px;
+  background-color: rgb(127, 127, 252);
+  box-shadow: 2px 2px 10px rgb(91, 91, 236) inset;
+}
+.radiobutton {
+  margin-left: 10rem;
+  margin-right: 4rem;
+  height: 1rem;
+  width: 1.3rem;
+}
+label {
+  font-size: 17px;
+  font-weight: 5rem;
+  letter-spacing: 1px;
+}
+
+textarea {
+  width: 20rem;
+  height: 5rem;
+  border: none;
+  border-radius: 3px 3px;
+  outline-color: rgb(151, 135, 238);
+  outline-width: 10px;
+}
+textarea {
+  width: 29rem;
+}
+.errorField {
+  font-size: 13px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: rgb(170, 8, 8);
+}
